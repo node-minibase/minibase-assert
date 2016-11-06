@@ -6,3 +6,12 @@
  */
 
 'use strict'
+
+var utils = require('./utils')
+
+module.exports = function minibaseAssert (opts) {
+  return function minibaseAssert (self) {
+    self.define('assert', utils.assertKindof)
+    // @TODO: add other assert methods
+  }
+}

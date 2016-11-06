@@ -20,7 +20,10 @@
     "precommit": "git add --all",
     "commit": "git-cz"
   },
-  "dependencies": {},
+  "dependencies": {
+    "assert-kindof": "^2.0.0",
+    "lazy-cache": "^2.0.1"
+  },
   "devDependencies": {
     "commitizen": "^2.8.6",
     "coveralls": "^2.11.14",
@@ -32,7 +35,8 @@
     "standard-version": "^3.0.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "utils.js"
   ],
   "keywords": [],
   "config": {
