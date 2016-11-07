@@ -1,6 +1,6 @@
 {
   "name": "minibase-assert",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Plugin for [minibase][] and [base][], that adds assertion methods - most of [assert-kindof][] methods and built-ins assert module.",
   "repository": "node-minibase/minibase-assert",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
