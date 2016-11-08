@@ -9,9 +9,9 @@
 
 var utils = require('./utils')
 
-module.exports = function minibaseAssert (opts) {
-  return function minibaseAssert (self) {
-    self.define('assert', utils.assertKindof)
-    // @TODO: add other assert methods
-  }
+module.exports = function minibaseAssert (config) {
+  return utils.createPlugin('minibase-assert', function minibaseAssert (self) {
+    var assert = utils.extend(utils.assertKindof, utils.coreAssert, config)
+    self.define('assert', assert)
+  })
 }

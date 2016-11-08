@@ -9,6 +9,9 @@ require = utils // eslint-disable-line no-undef, no-native-reassign, no-global-a
  */
 
 require('assert-kindof')
+require('core-assert')
+require('extend-shallow', 'extend')
+require('minibase-create-plugin', 'createPlugin')
 require = fn // eslint-disable-line no-undef, no-native-reassign, no-global-assign
 
 /**
