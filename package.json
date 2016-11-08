@@ -55,15 +55,28 @@
     "tasks": [
       "readme"
     ],
-    "lint": {
-      "reflinks": true
-    },
     "related": {
-      "list": []
+      "list": [
+        "minibase",
+        "minibase-create-plugin",
+        "minibase-visit",
+        "minibase-better-define",
+        "minibase-is-registered",
+        "minibase-results",
+        "always-done"
+      ]
     },
     "reflinks": [
+      "assert-kindof",
       "base",
-      "minibase"
-    ]
+      "is-kindof",
+      "kind-of",
+      "minibase",
+      "async-done",
+      "collection-visit"
+    ],
+    "lint": {
+      "reflinks": true
+    }
   }
 }
