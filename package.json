@@ -42,7 +42,26 @@
     "index.js",
     "utils.js"
   ],
-  "keywords": [],
+  "keywords": [
+    "assert",
+    "assertion",
+    "base",
+    "baseplugin",
+    "check",
+    "core",
+    "is",
+    "kind",
+    "kindof",
+    "lib",
+    "minibase",
+    "minibaseplugin",
+    "plugin",
+    "type",
+    "typecheck",
+    "typeof",
+    "validate",
+    "validation"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
