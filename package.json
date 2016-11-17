@@ -69,12 +69,18 @@
   },
   "verb": {
     "run": true,
-    "toc": true,
+    "toc": {
+      "render": true,
+      "method": "preWrite",
+      "maxdepth": 3,
+      "footer": ""
+    },
     "layout": "empty",
     "tasks": [
       "readme"
     ],
     "related": {
+      "highlight": "is-kindof",
       "list": [
         "minibase",
         "minibase-create-plugin",
@@ -82,17 +88,22 @@
         "minibase-better-define",
         "minibase-is-registered",
         "minibase-results",
-        "always-done"
+        "always-done",
+        "minibase-tests"
       ]
     },
     "reflinks": [
       "assert-kindof",
+      "async-done",
       "base",
+      "collection-visit",
       "is-kindof",
       "kind-of",
       "minibase",
-      "async-done",
-      "collection-visit"
+      "commitizen",
+      "standard-version",
+      "verb",
+      "verb-generate-readme"
     ],
     "lint": {
       "reflinks": true
